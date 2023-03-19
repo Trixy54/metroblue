@@ -1,0 +1,44 @@
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+     background-color: palevioletred;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+}
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+     background-color: salmon;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+}
+ a:link{
+    color:lightcoral;
+ }
+ a:visited{
+ color: lightpink;
+ }
+ a:hover{
+  color: hotpink;
+ }
+ a:active{
+   color: pink;
+ }
+ button:hover{
+ background-color:navajowhite;
+ }
+ button:active{
+    background-color: antiquewhite;
+ }
+ li:nth-child(even){
+    background-color: hotpink;
+ }
+ li:nth-child(odd){
+    background-color: pink;
+ }

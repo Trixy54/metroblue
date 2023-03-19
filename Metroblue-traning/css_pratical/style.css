@@ -1,0 +1,47 @@
+body{
+    background-color: plum;
+}
+h1{
+    color:black ;
+}
+p{
+    background-color:palevioletred;
+    color: pink;
+    font-family: Verdana, Geneva;
+}
+.odd{
+    color: lavender;
+}
+.even{
+    color: purple;
+}
+.fa-soundcloud{
+    color: orangered;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-pinterest{
+    color: red;
+}
+#box1{
+    border: 6px solid;
+    width: 200px;
+    height: 200px;
+    font-size: 150px;
+    text-align: center;
+     background-color: mediumvioletred; 
+
+
+     transform: translateX(50px);
+     /* transform: translateY(50px);
+     transform: translate(50px,50px);
+     transform: rotateX(180deg);
+     transform: rotateY(180deg);
+     transform: rotateZ(180deg); */
+     /* transform: scaleX(2);
+     transform: scaleY(2);
+     transform: scale(2,2); */
+
+     /* transform: matrix(1,0,0.2,0,3); */
+}

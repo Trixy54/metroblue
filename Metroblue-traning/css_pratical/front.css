@@ -1,0 +1,25 @@
+body{
+   background-color:black;
+}
+h1{
+    font-family: 'Segoe UI', sans-serif;
+    color:white ;
+    border-top-style: solid;
+    border-top-width:15px ;
+    border-bottom-style:solid ;
+    border-bottom-width: 15px;
+    border-left-style: double;
+    border-left-width:10px;
+}
+p{
+    color: lawngreen;
+    font-size: bold;
+    font-family:  Tahoma, sans-serif;
+    font-style: italic;
+    text-decoration:  teal wavy underline;
+    border-style: inset;
+    border-width: 14px;
+    border-color: yellowgreen;
+    border-radius: 13px;
+    padding: 5px;
+}

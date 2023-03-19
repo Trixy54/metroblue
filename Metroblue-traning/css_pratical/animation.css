@@ -1,0 +1,43 @@
+.box1{
+    width: 350px;
+    height: 115px;
+    font-size: 100px;
+    background-color: mediumorchid;
+    text-align: center;
+    
+    animation: myslide;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes myslide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+    20%{background-color: maroon;}
+    40%{background-color: orange;}
+    20%{background-color: yellow;}
+    20%{background-color: green;}
+    20%{background-color: blue;}
+}
+#box1{
+    width: 300px;
+    height: 200px;
+    font-size: 150px;
+    background-color: violet;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace ;
+    animation: myRotate;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+
+   
+@keyframes myRotate{
+    100%{transform: rotateY(360deg);}
+}
