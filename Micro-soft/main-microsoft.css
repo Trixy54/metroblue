@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.carousel-item {
+    margin-bottom: 200px;
+}
+
+.carousel-caption {
+    padding-right: 650px;
+    margin-bottom: 110px;
+    color: #000;
+}
+
+.card-group {
+    margin-right: 36px;
+    margin-left: 36px;
+    margin-top: 620px;
+}
+
+.card2 {
+    margin: 30px;
+}
+
+.card-img-overlay {
+    color: white;
+    margin-left: 900px;
+    margin-top: 1500px;
+    font-family: 200px;
+
+}
+
+.text-body-secondary {
+    color: blue;
+}
+
+.end {
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.foot {
+    background-color: lightgray;
+    flex-direction: column;
+}
+
+.p-3 {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    justify-content: end;
+    font-size: 13px;
+}
+
+a:link {
+    text-decoration: none;
+
+}

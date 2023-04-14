@@ -1,0 +1,24 @@
+.body {
+    margin: 0;
+}
+
+/* .jumbotron {
+    padding-top: 150px;
+    padding-left: 50px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP4-1399x600"
+        );
+    width: 1320px;
+    height: 500px;
+
+} */
+
+.card-img-overlay {
+    color: black;
+    text-align: left;
+    margin-top: 230px;
+}
+
+.card-group {
+    margin-right: 36px;
+    margin-left: 36px;
+}
