@@ -1,0 +1,84 @@
+<html>
+
+<head>
+</head>
+
+<body>
+
+    <input type="text" id="in" readonly value=""><input type="button" value="←" onclick='q()'>
+    <br>
+    <input type="button" value="0" onclick='s("0")'>
+    <input type="button" value="1" onclick='s("1")'>
+    <input type="button" value="2" onclick='s("2")'>
+    <input type="button" value="c" onclick='d("")'>
+    <br>
+    <input type="button" value="3 " onclick='s("3")'>
+    <input type="button" value="4 " onclick='s("4")'>
+    <input type="button" value="5" onclick='s("5")'>
+    <input type="button" value="+" onclick='p("+")'>
+    <br>
+    <input type="button" value="6" onclick='s("6")'>
+    <input type="button" value="7" onclick='s("7")'>
+    <input type="button" value="8" onclick='s("8")'>
+    <input type="button" value="-" onclick='p("-")'>
+    <br>
+    <input type="button" value="." onclick='p(".")'>
+    <input type="button" value="9" onclick='s("9")'>
+    <input type="button" value="*" onclick='p("*")'>
+    <input type="button" value="/" onclick='p("/")'>
+    <input type="button" value="=" onclick='e("")'>
+    <script>
+        // deletes the value within the text box
+        function d(val) {
+            document.getElementById("in").value = val
+        }
+
+        // adds to value within the text box
+        function s(val) {
+            document.getElementById("in").value += val;
+        };
+
+        //  backspace button
+        function q() {
+            var value = document.getElementById("in").value;
+            document.getElementById("in").value = value.substr(0, value.length -
+                1);
+        };
+
+
+        // if a operator delete the last operator and add a new one
+        // else add a operator
+        function p(val) {
+            var id = document.getElementById("in").value;
+            var lastChar = id.substr(id.length - 1)
+
+            if (lastChar === "+" || lastChar === "-" || lastChar === "*" || lastChar
+                === "/" || lastChar === ".") {
+                var value = document.getElementById("in").value;
+                document.getElementById("in").value = value.substr(0, value.length -
+                    1) + val;
+            }
+
+            else {
+                document.getElementById("in").value += val
+            }
+
+        };
+
+
+        // equal sign function 
+        // evaluate if it an expression 
+        // else return error
+        function e() {
+            try {
+                d(eval(document.getElementById("in").value))
+            }
+            catch (e) {
+                d("error")
+            }
+        };
+
+    </script>
+</body>
+
+</html>
